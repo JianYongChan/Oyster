@@ -20,7 +20,7 @@ else
 fi
 # 由于每天只有一张图片
 # 所以可以根据日期来对图片命名
-day=$(( $(date +%d) - $offset ))
+day=$(( $(date +%d) - offset ))
 if [[ $day -lt 10 ]]; then
     day="0"$day
 fi
